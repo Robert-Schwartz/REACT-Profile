@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function NavTabs() {
+export default function NavTabs(props) {
     const classes = useStyles();
 
     return (
@@ -31,7 +31,7 @@ export default function NavTabs() {
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                         <MenuIcon />
-                        <Drawer />
+                        <Drawer handlePageChange={props.handlePageChange} />
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
                         Robert Schwartz Development

@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function Drawer() {
+export default function Drawer(props) {
     const classes = useStyles();
     const [state, setState] = React.useState({
         left: false
@@ -45,7 +45,7 @@ export default function Drawer() {
         >
             <List>
                 {['About', 'Skills', 'Projects', 'Contact','Home'].map((text, index) => (
-                    <ListItem button key={text}>
+                    <ListItem button key={text} onClick={() => props.handlePageChange(text)}>
                         <ListItemIcon>
                             {index === 0 ? <PersonIcon /> : <AppsIcon />}</ListItemIcon>
                         <ListItemText primary={text} />
