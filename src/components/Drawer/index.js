@@ -49,7 +49,8 @@ export default function Drawer() {
             <List>
                 {['About', 'Skills', 'Projects', 'Contact','Home'].map((text, index) => (
                     <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <PersonIcon /> : <AppsIcon />}</ListItemIcon>
+                        <ListItemIcon>
+                            {index === 0 ? <PersonIcon /> : <AppsIcon />}</ListItemIcon>
                         <ListItemText primary={text} />
                     </ListItem>
                 ))}
