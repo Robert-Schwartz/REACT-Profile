@@ -1,42 +1,40 @@
-import React, { useState } from 'react';
-import NavTabs from './components/NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Projects from './pages/Projects';
-import Skills from './pages/Skills';
-import Contact from './pages/Contact';
-import Container from '@material-ui/core/Container';
+import MainNavigation from "./components/layout/MainNavigation";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
+import Container from "@material-ui/core/Container";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
-  // Using useState, set the default value for currentPage to 'Home'
-  const [currentPage, handlePageChange] = useState('Home');
-
-  // The renderPage method uses a switch statement to render the appropriate current page
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'About':
-        return <About />;
-      case 'Projects':
-        return <Projects/>;
-      case 'Skills':
-        return <Skills />;
-      case 'Contact':
-        return <Contact />;
-      case 'Resume':
-        return <Resume />;
-      default:
-        return <Home />;
-    }
-  };
-
   return (
     <div>
-      <Container maxWidth='xl' disableGutters={true}>
-      {/* Pass the state value and the setter as props to NavTabs */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Call the renderPage function passing in the currentPage */}
-      {<div>{renderPage(currentPage)}</div>}
+      <Container maxWidth="xl" disableGutters={true}>
+        <div>
+          <MainNavigation />
+          <Switch>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/about" exact>
+              <About />
+            </Route>
+            <Route path="/skills" exact>
+              <Skills />
+            </Route>
+            <Route path="/projects" exact>
+              <Projects />
+            </Route>
+            <Route path="/contact" exact>
+              <Contact />
+            </Route>
+            <Route path="/resume" exact>
+              <Resume />
+            </Route>
+          </Switch>
+        </div>
       </Container>
     </div>
   );
