@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './components/NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
+import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
@@ -22,6 +23,8 @@ function App() {
         return <Skills />;
       case 'Contact':
         return <Contact />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <Home />;
     }

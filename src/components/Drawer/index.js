@@ -44,7 +44,7 @@ export default function Drawer(props) {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-                {['About', 'Skills', 'Projects', 'Contact','Home'].map((text, index) => (
+                {['About', 'Skills', 'Projects', 'Contact', 'Resume', 'Home'].map((text, index) => (
                     <ListItem button key={text} onClick={() => props.handlePageChange(text)}>
                         <ListItemIcon>
                             {index === 0 ? <PersonIcon /> : <AppsIcon />}</ListItemIcon>
