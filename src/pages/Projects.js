@@ -4,7 +4,7 @@ const Projects = () => (
     <div>
         <h1>Projects Page</h1>
         <p>
-           Projects Yo!
+            Projects Yo!
         </p>
     </div>
 );

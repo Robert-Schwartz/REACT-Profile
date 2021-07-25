@@ -1,8 +1,6 @@
 import React from "react";
 
 
-
-
 const Home = () => (
     <section className="my-5" >
         <h1>Robert Schwartz Web Development!</h1>
