@@ -13,9 +13,6 @@ function MainNavigation() {
             <Link to="/">Home</Link>
           </li>
           <li className="mx-2">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="mx-2">
             <Link to="/skills">Skills</Link>
           </li>
           <li className="mx-2">

@@ -1,7 +1,6 @@
 import MainNavigation from "./components/layout/MainNavigation";
 import "./App.css";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
@@ -18,9 +17,6 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Home />
-            </Route>
-            <Route path="/about" exact>
-              <About />
             </Route>
             <Route path="/skills" exact>
               <Skills />

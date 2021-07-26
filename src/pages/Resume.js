@@ -1,12 +1,7 @@
 import React from "react";
 
-const Resume = () => (
-    <div>
-        <h1>Resume</h1>
-        <p>
-            insert modal
-        </p>
-    </div>
-);
+function Resume() {
+  return <div> RESUME text</div>;
+}
 
 export default Resume;

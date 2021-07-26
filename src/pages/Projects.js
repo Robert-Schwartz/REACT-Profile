@@ -1,12 +1,7 @@
 import React from "react";
 
-const Projects = () => (
-    <div>
-        <h1>Projects Page</h1>
-        <p>
-            Projects Yo!
-        </p>
-    </div>
-);
+function Projects() {
+  return <div> Projects text</div>;
+}
 
 export default Projects;

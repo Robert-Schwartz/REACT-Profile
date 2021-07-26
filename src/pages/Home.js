@@ -1,15 +1,39 @@
 import React from "react";
+// Import Image
+import coverImage from "../assets/profile.jpeg";
 
 
-const Home = () => (
-    <section className="my-5" >
-        <h1>Robert Schwartz Web Development!</h1>
-        <div className="my-2">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-            </p>
-        </div>
-    </section>
+function Home() {
+
+return (
+  <section className="my-5">
+    <h1>Hi, I'm Robert!</h1>
+    <img
+      src={coverImage}
+      style={{ width: "25%" }}
+      alt="cover"
+    />
+    <div className="my-2">
+      <p>
+        I am a Full Stack Web Developer from Phoenix, Arizona currently enrolled
+        in the University of Arizona Full Stack Boot Camp. When I'm not coding
+        you will find me playing with my border collie Mika, mountain biking, or
+        enjoying sports. Go Suns!
+        <br />
+        <br />
+        My passion for web development came from my love of solving the complex
+        problems that require new and unique solutions. In previous professional
+        experiences I would often look for new ways to innovate processes and
+        create new tools. I love to work together on a team to bring new
+        perspectives and deliver creative solutions from conception to
+        deployment.
+        <br />
+        <br />
+        Please take a look around to see what I have learned so far!
+      </p>
+    </div>
+  </section>
 );
+}
 
 export default Home;
