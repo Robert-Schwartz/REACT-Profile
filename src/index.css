@@ -100,12 +100,29 @@ p {
   padding-bottom: var(--spacing-two);
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .card {
-  background-color: white;
-  border-radius: 4px;
+  background-color: whitesmoke;
+  border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   width: 20rem;
+}
+
+.card p {
+  color:rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+  font-size: 1rem;
+}
+.card h3 {
+  color:rgba(0, 0, 0, 0.2);
+  font-weight: Bold;
+  font-size: 1.5rem;
 }
 
 .modal {
