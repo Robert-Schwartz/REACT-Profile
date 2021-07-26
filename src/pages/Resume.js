@@ -1,7 +1,13 @@
-import React from "react";
+import myResume from "../assets/resume.jpg"
 
 function Resume() {
-  return <div> RESUME text</div>;
+
+  return (
+    <div>
+        <h1> My Resume</h1>
+      <img src={myResume} style={{ width: "50%" }} alt="cover" />
+    </div>
+  );
 }
 
 export default Resume;
