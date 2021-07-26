@@ -1,4 +1,5 @@
 import MainNavigation from "./components/layout/MainNavigation";
+import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
