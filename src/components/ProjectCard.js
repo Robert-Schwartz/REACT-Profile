@@ -11,7 +11,7 @@ import TaskMaster from "../assets/projectImages/Taskmaster.png";
 
 function ProjectCard() {
   return (
-    <div>
+    <div className="container">
       {/* Code Quiz */}
       <section id="project" className="card">
         <h3>Code Quiz</h3>
