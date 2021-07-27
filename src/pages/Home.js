@@ -5,9 +5,9 @@ import coverImage from "../assets/me.jpeg";
 function Home() {
   return (
     <section className="my-5">
+      <div className="my-2">
       <h1>Hi, I'm Robert!</h1>
       <img src={coverImage} style={{ width: "50%" }} alt="cover" />
-      <div className="my-2">
         <p>
           I am a Full Stack Web Developer from Phoenix, Arizona currently
           enrolled in the University of Arizona Full Stack Boot Camp. When I'm
@@ -27,6 +27,7 @@ function Home() {
         </p>
       </div>
     </section>
+
   );
 }
 
