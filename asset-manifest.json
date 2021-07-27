@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-profile/static/css/main.4208f414.chunk.css",
-    "main.js": "/react-profile/static/js/main.c57a7e1d.chunk.js",
-    "main.js.map": "/react-profile/static/js/main.c57a7e1d.chunk.js.map",
-    "runtime-main.js": "/react-profile/static/js/runtime-main.93bba748.js",
-    "runtime-main.js.map": "/react-profile/static/js/runtime-main.93bba748.js.map",
-    "static/js/2.561854f1.chunk.js": "/react-profile/static/js/2.561854f1.chunk.js",
-    "static/js/2.561854f1.chunk.js.map": "/react-profile/static/js/2.561854f1.chunk.js.map",
-    "index.html": "/react-profile/index.html",
-    "static/css/main.4208f414.chunk.css.map": "/react-profile/static/css/main.4208f414.chunk.css.map",
-    "static/js/2.561854f1.chunk.js.LICENSE.txt": "/react-profile/static/js/2.561854f1.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/react-profile/static/media/Phoenix.8ee8f1b8.jpeg",
-    "static/media/PizzaHunt.29c3eb3d.png": "/react-profile/static/media/PizzaHunt.29c3eb3d.png",
-    "static/media/Swanson-Dreams.c5b34969.png": "/react-profile/static/media/Swanson-Dreams.c5b34969.png",
-    "static/media/Taskmaster.7be5dce7.png": "/react-profile/static/media/Taskmaster.7be5dce7.png",
-    "static/media/jsQuiz.f8509158.jpg": "/react-profile/static/media/jsQuiz.f8509158.jpg",
-    "static/media/me.768ddaf5.jpeg": "/react-profile/static/media/me.768ddaf5.jpeg",
-    "static/media/note-taker.774827e2.png": "/react-profile/static/media/note-taker.774827e2.png",
-    "static/media/resume.4bf0b324.jpg": "/react-profile/static/media/resume.4bf0b324.jpg",
-    "static/media/runBuddy_preview.c8d11a42.png": "/react-profile/static/media/runBuddy_preview.c8d11a42.png"
+    "main.css": "/REACT-Profile/static/css/main.b89a1183.chunk.css",
+    "main.js": "/REACT-Profile/static/js/main.fff1dae8.chunk.js",
+    "main.js.map": "/REACT-Profile/static/js/main.fff1dae8.chunk.js.map",
+    "runtime-main.js": "/REACT-Profile/static/js/runtime-main.76111e9e.js",
+    "runtime-main.js.map": "/REACT-Profile/static/js/runtime-main.76111e9e.js.map",
+    "static/js/2.561854f1.chunk.js": "/REACT-Profile/static/js/2.561854f1.chunk.js",
+    "static/js/2.561854f1.chunk.js.map": "/REACT-Profile/static/js/2.561854f1.chunk.js.map",
+    "index.html": "/REACT-Profile/index.html",
+    "static/css/main.b89a1183.chunk.css.map": "/REACT-Profile/static/css/main.b89a1183.chunk.css.map",
+    "static/js/2.561854f1.chunk.js.LICENSE.txt": "/REACT-Profile/static/js/2.561854f1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/REACT-Profile/static/media/Phoenix.8ee8f1b8.jpeg",
+    "static/media/PizzaHunt.29c3eb3d.png": "/REACT-Profile/static/media/PizzaHunt.29c3eb3d.png",
+    "static/media/Swanson-Dreams.c5b34969.png": "/REACT-Profile/static/media/Swanson-Dreams.c5b34969.png",
+    "static/media/Taskmaster.7be5dce7.png": "/REACT-Profile/static/media/Taskmaster.7be5dce7.png",
+    "static/media/jsQuiz.f8509158.jpg": "/REACT-Profile/static/media/jsQuiz.f8509158.jpg",
+    "static/media/me.768ddaf5.jpeg": "/REACT-Profile/static/media/me.768ddaf5.jpeg",
+    "static/media/note-taker.774827e2.png": "/REACT-Profile/static/media/note-taker.774827e2.png",
+    "static/media/resume.4bf0b324.jpg": "/REACT-Profile/static/media/resume.4bf0b324.jpg",
+    "static/media/runBuddy_preview.c8d11a42.png": "/REACT-Profile/static/media/runBuddy_preview.c8d11a42.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93bba748.js",
+    "static/js/runtime-main.76111e9e.js",
     "static/js/2.561854f1.chunk.js",
-    "static/css/main.4208f414.chunk.css",
-    "static/js/main.c57a7e1d.chunk.js"
+    "static/css/main.b89a1183.chunk.css",
+    "static/js/main.fff1dae8.chunk.js"
   ]
 }
